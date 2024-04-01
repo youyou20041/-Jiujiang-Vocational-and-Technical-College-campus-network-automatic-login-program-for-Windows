@@ -1,0 +1,13 @@
+说明：
+1.本程序可以实现快捷登录校园网，自动登录功能可以在每次电脑启动时自动登录校园网
+2.第一次运行建议使用管理员身份打开creatfile.exe，确保能顺利加入开机自启动中。
+3.！！！建议创一个文件夹来放置此程序，因为会自动生成配置信息文件！！！
+4.用户信息保存至credentials.json文件。
+5.first_run.flag文件是判断是否第一次运行程序。
+6.MyAppShortcut文件是creatfile.exe文件的快捷键。
+7.第一次运行自动添加至开机自启动（建议第一次使用管理员身份运行）。
+8.如果想从开机自启动取消，win+r打开运行框输入shell:startup然后删除MyAppShortcut文件即可。
+9.想重新加入开机自启动将creatfile.exe所在文件夹中的first_run.flag文件删除，再运行一遍creatfile.exe。
+10.欢迎加入九职院校友群！有问题欢迎大家来交流
+QQ：765466404
+微信：linxiaoyi0xy
